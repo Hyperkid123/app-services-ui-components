@@ -35,7 +35,7 @@ jobs:
           npm run test -- --coverage
           npm run test-storybook:ci
       - name: Generate coverage report
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v3
 
   lintandformat:
     needs: setup
